@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BTEC FPT - Cuộn Sách Sĩ Tử Mùa Hè - 2x2 Grid</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;600;700&family=Dancing+Script:wght@400;700&family=Philosopher:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Photo Letter Envelope -->
+    <div class="photo-envelope" id="photoEnvelope">
+      <div class="envelope-back"></div>
+      <div class="envelope-front">
+        <div class="envelope-seal">📸</div>
+        <div class="envelope-text">Kỷ niệm</div>
+      </div>
+      <div class="envelope-flap" id="envelopeFlap">
+        <div class="wax-seal">❀</div>
+      </div>
+      <div class="photo-content" id="photoContent">
+        <div class="photo-frame">
+          <img
+            src="/a.img/anh-truong.jpg"
+            alt="BTEC FPT Graduation Ceremony"
+            class="memory-photo"
+          />
+          <div class="photo-caption">Lễ tốt nghiệp BTEC FPT 2024</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll rods (left and right wooden poles) -->
+    <div class="scroll-rod left-rod"></div>
+    <div class="scroll-rod right-rod"></div>
+
+    <!-- Vietnamese traditional corner decorations on scroll -->
+    <div class="scroll-corner-decoration top-left">
+      <div class="lotus-pattern">🪷</div>
+    </div>
+    <div class="scroll-corner-decoration top-right">
+      <div class="bamboo-pattern">🎋</div>
+    </div>
+    <div class="scroll-corner-decoration bottom-left">
+      <div class="fan-pattern">🪭</div>
+    </div>
+    <div class="scroll-corner-decoration bottom-right">
+      <div class="lantern-pattern">🏮</div>
+    </div>
+
+    <!-- Summer floating elements -->
+    <div class="summer-elements">
+      <div class="floating-element cicada">🦗</div>
+      <div class="floating-element butterfly">🦋</div>
+      <div class="floating-element dragonfly">🪲</div>
+      <div class="floating-element leaf">🍃</div>
+      <div class="floating-element flower">🌺</div>
+      <div class="floating-element cherry">🌸</div>
+      <div class="floating-element sun-ray">☀️</div>
+      <div class="floating-element breeze">💨</div>
+    </div>
+
+    <!-- Main Ancient Vietnamese Scroll -->
+    <div class="ancient-scroll">
+      <!-- Scroll top cap -->
+      <div class="scroll-cap top-cap">
+        <div class="cap-decoration">❀ ◆ ❀</div>
+      </div>
+
+      <!-- Scroll content area -->
+      <div class="scroll-parchment">
+        <!-- Header with imperial seal -->
+        <section class="imperial-header">
+          <div class="imperial-seal-container">
+            <div class="red-seal">📜</div>
+            <h1 class="scroll-title">BTEC FPT</h1>
+            <div class="scroll-subtitle">Cuộn Sách Học Viện Sĩ Tử</div>
+            <div class="summer-title">Mùa Hè Miệt Mài Tu Học</div>
+          </div>
+        </section>
+
+        <!-- Hero Image Section -->
+        <section class="hero-image-section">
+          <img
+            src="/a.img/brand-02.png"
+            alt="BTEC FPT Campus"
+            class="hero-image"
+          />
+          <div class="hero-caption">Cơ sở đào tạo BTEC FPT hiện đại</div>
+        </section>
+
+        <!-- Scroll divider -->
+        <div class="scroll-divider">
+          <div class="divider-pattern">🌸 ◆ 🌸 ◆ 🌸</div>
+        </div>
+
+        <!-- BTEC Highlights Gallery -->
+        <section class="scroll-section">
+          <div class="section-title-scroll">
+            <h2>Điểm Nổi Bật BTEC FPT</h2>
+            <div class="title-decoration">🌟 ◆ 🌟</div>
+          </div>
+
+          <div class="btec-gallery-grid">
+            <div class="gallery-item">
+              <img
+                src="/a.img/brand-01.png"
+                alt="UK Degree Recognition"
+                class="gallery-image"
+              />
+              <div class="gallery-title">🎓 Bằng Cấp Anh Quốc</div>
+              <div class="gallery-description">
+                Bằng BTEC là một văn bằng quốc tế chất lượng cao, bao gồm các
+                chuyên ngành từ kinh doanh đến kỹ thuật, có giá trị tương đương
+                với bằng GCSE (cấp độ 1 to 2), A Level (cấp độ 3) and bằng đại
+                học (cấp độ 4-7). Bằng BTEC HND Level 5, là một bằng cấp bậc cao
+                tại Anh Quốc. Với bằng cấp này, sinh viên có thể học lên cấp cao
+                hơn tại các trường đại học. Bằng cấp này có giá trị tương đương
+                với chương trình năm thứ 2 trong chương trình đại học 3 năm tại
+                Anh Quốc.
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <img
+                src="/a.img/brand-03.png"
+                alt="Modern Technology"
+                class="gallery-image"
+              />
+              <div class="gallery-title">💻 Học nhanh làm sớm</div>
+              <div class="gallery-description">
+                Trang bị đầy đủ công nghệ AI, phòng lab hiện đại, hỗ trợ tối đa
+                quá trình học tập và nghiên cứu
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <img
+                src="/a.img/brand-06.png"
+                alt="Fast Employment"
+                class="gallery-image"
+              />
+              <div class="gallery-title">⚡ Đảm bảo việc làm</div>
+              <div class="gallery-description">
+                98% sinh viên có việc làm sau khi tốt nghiệp với mức lương cạnh
+                tranh, được các doanh nghiệp đánh giá cao
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <img
+                src="/a.img/brand-05.png"
+                alt="Quality Education"
+                class="gallery-image"
+              />
+              <div class="gallery-title">⭐ Chất Lượng Đào Tạo</div>
+              <div class="gallery-description">
+                BTEC HND là chương trình đào tạo của Anh Quốc, tương đương cấp
+                độ cao đẳng trong hệ thống giáo dục Việt Nam. Với triết lý đào
+                tạo hiện đại hướng đến việc giúp người học ứng dụng tối đa kiến
+                thức vào thực tế, chương trình BTEC HND liên tục được cập nhật
+                những xu hướng, kiến thức mới nhất nhằm đáp ứng nhu cầu về chất
+                lượng nhân sự của các công ty, tập đoàn hiện này.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Scroll divider -->
+        <div class="scroll-divider">
+          <div class="divider-pattern">🌺 ◆ 🌺 ◆ 🌺</div>
+        </div>
+
+        <!-- Scholar levels section - 2x2 Grid -->
+        <section class="scroll-section">
+          <div class="section-title-scroll">
+            <h2>Thang Bậc Tu Học Của Sĩ Tử</h2>
+            <div class="title-decoration">❀ ◆ ❀</div>
+          </div>
+
+          <div class="scholar-progression-grid">
+            <div class="scholar-level completed grid-item">
+              <div class="level-seal">二</div>
+              <div class="level-content">
+                <h3>🖋️ Trung Học - Rèn Luyện Tài Năng</h3>
+                <p>Phát triển kỹ năng chuyên môn và hiểu biết sâu sắc</p>
+                <div class="summer-note">🦋 Mùa hè thực hành kỹ năng</div>
+                <div class="progress-bamboo">
+                  <div class="bamboo-fill" style="width: 100%"></div>
+                </div>
+                <div class="status-text">✓ Hoàn thành xuất sắc</div>
+              </div>
+            </div>
+
+            <div class="scholar-level completed grid-item">
+              <div class="level-seal">三</div>
+              <div class="level-content">
+                <h3>🎓 Đại Học - Thành Tựu Học Vấn</h3>
+                <p>Thông thạo các ngành khoa học và nghệ thuật</p>
+                <div class="summer-note">🌺 Mùa hè nghiên cứu chuyên sâu</div>
+                <div class="progress-bamboo">
+                  <div class="bamboo-fill" style="width: 100%"></div>
+                </div>
+                <div class="status-text">✓ Hoàn thành xuất sắc</div>
+              </div>
+            </div>
+
+            <div class="scholar-level active grid-item">
+              <div class="level-seal">四</div>
+              <div class="level-content">
+                <h3>👑 Thạc Sĩ - Đỉnh Cao Tri Thức</h3>
+                <p>Trở thành bậc thầy, truyền đạt kiến thức cho đời sau</p>
+                <div class="summer-note">🔥 Mùa hè tiếp tục tu luyện</div>
+                <div class="progress-bamboo">
+                  <div class="bamboo-fill active-fill" style="width: 75%"></div>
+                </div>
+                <div class="status-text">⚡ Đang tiến bộ mạnh mẽ</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Scroll divider -->
+        <div class="scroll-divider">
+          <div class="divider-pattern">🏮 ◆ 🏮 ◆ 🏮</div>
+        </div>
+
+        <!-- Philosophy section - 2x2 Grid -->
+        <section class="scroll-section">
+          <div class="section-title-scroll">
+            <h2>Triết Lý Giáo Dục Cổ Truyền Việt Nam</h2>
+            <div class="title-decoration">🌸 ❀ 🌸</div>
+          </div>
+
+          <div class="philosophy-scrolls-grid">
+            <div class="philosophy-item grid-item">
+              <div class="philosophy-header">
+                <div class="philosophy-icon">📖</div>
+                <h3>Đạo Khổng Tử - Nho Giáo</h3>
+              </div>
+              <div class="philosophy-content">
+                <p class="main-quote">
+                  "Học mà không nghĩ thì mù quáng, nghĩ mà không học thì nguy
+                  hiểm"
+                </p>
+                <div class="summer-wisdom">
+                  <span class="season-marker">☀️</span>
+                  <span
+                    >Mùa hè là thời gian lý tưởng để suy ngẫm và học hỏi</span
+                  >
+                </div>
+
+                <div class="application">
+                  <strong>Ứng dụng:</strong> Kết hợp học tập và tư duy phản biện
+                </div>
+              </div>
+            </div>
+
+            <div class="philosophy-item grid-item">
+              <div class="philosophy-header">
+                <div class="philosophy-icon">🪷</div>
+                <h3>Đạo Phật - Phật Giáo</h3>
+              </div>
+              <div class="philosophy-content">
+                <p class="main-quote">
+                  "Tâm thanh tịnh thì trí tuệ sáng suốt, học hỏi không ngừng
+                  nghỉ"
+                </p>
+                <div class="summer-wisdom">
+                  <span class="season-marker">🦋</span>
+                  <span>Hè đến, tâm hồn thư thái như sen nở</span>
+                </div>
+
+                <div class="application">
+                  <strong>Ứng dụng:</strong> Tu dưỡng tâm tính trước, rồi mới
+                  học
+                </div>
+              </div>
+            </div>
+
+            <div class="philosophy-item grid-item">
+              <div class="philosophy-header">
+                <div class="philosophy-icon">🏮</div>
+                <h3>Nho Giáo Việt Nam</h3>
+              </div>
+              <div class="philosophy-content">
+                <p class="main-quote">
+                  "Học để làm người, học để phụng sự quê hương đất nước"
+                </p>
+                <div class="summer-wisdom">
+                  <span class="season-marker">🌾</span>
+                  <span>Mùa hè như mùa gặt, thu hoạch thành quả</span>
+                </div>
+
+                <div class="application">
+                  <strong>Ứng dụng:</strong> Giáo dục hướng về cộng đồng
+                </div>
+              </div>
+            </div>
+
+            <div class="philosophy-item grid-item">
+              <div class="philosophy-header">
+                <div class="philosophy-icon">🌸</div>
+                <h3>Đạo Lão - Tu Dưỡng</h3>
+              </div>
+              <div class="philosophy-content">
+                <p class="main-quote">
+                  "Thuận theo tự nhiên, học hỏi từ vạn vật"
+                </p>
+                <div class="summer-wisdom">
+                  <span class="season-marker">🍃</span>
+                  <span>Mùa hè dạy ta sống hòa hợp với thiên nhiên</span>
+                </div>
+
+                <div class="application">
+                  <strong>Ứng dụng:</strong> Học tập từ thiên nhiên và kinh
+                  nghiệm
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Scroll divider -->
+        <div class="scroll-divider">
+          <div class="divider-pattern">🌺 ◆ 🌺 ◆ 🌺</div>
+        </div>
+
+        <!-- New Section: Global Partnerships -->
+        <section class="scroll-section">
+          <div class="section-title-scroll">
+            <h2>Liên Kết Quốc Tế</h2>
+            <div class="title-decoration">🌍 ◆ 🌍</div>
+          </div>
+
+          <div class="partnership-grid">
+            <div class="partnership-item grid-item">
+              <div class="partnership-header">
+                <div class="partnership-icon">🇬🇧</div>
+                <h3>Pearson Education, Anh Quốc</h3>
+              </div>
+              <div class="partnership-content">
+                <p>
+                  Hợp tác với Pearson Education South Asia PE LTD cung cấp bằng
+                  BTEC HND Level 5, mở ra cơ hội học tập tại các trường đại học
+                  hàng đầu Anh Quốc.
+                </p>
+                <div class="summer-note">🌞 Mùa hè kết nối toàn cầu</div>
+                <div class="classical-quote">攜手共進，學無國界</div>
+              </div>
+            </div>
+
+            <div class="partnership-item grid-item">
+              <div class="partnership-header">
+                <div class="partnership-icon">🇺🇸</div>
+                <h3>Đại học Mỹ</h3>
+              </div>
+              <div class="partnership-content">
+                <p>
+                  Liên kết với các trường đại học tại Mỹ, cung cấp lộ trình
+                  chuyển tiếp cho sinh viên BTEC HND học lên bậc cao hơn.
+                </p>
+                <div class="summer-note">🦋 Mùa hè chinh phục giấc mơ Mỹ</div>
+                <div class="classical-quote">遠赴重洋，求學問道</div>
+              </div>
+            </div>
+
+            <div class="partnership-item grid-item">
+              <div class="partnership-header">
+                <div class="partnership-icon">🇦🇺</div>
+                <h3>Đại học Úc</h3>
+              </div>
+              <div class="partnership-content">
+                <p>
+                  Hợp tác với các trường đại học tại Úc, mang đến cơ hội học
+                  bổng và chương trình trao đổi sinh viên.
+                </p>
+                <div class="summer-note">
+                  🌺 Mùa hè khám phá xứ sở chuột túi
+                </div>
+                <div class="classical-quote">學海無涯，志在四方</div>
+              </div>
+            </div>
+
+            <div class="partnership-item grid-item">
+              <div class="partnership-header">
+                <div class="partnership-icon">🇸🇬</div>
+                <h3>Đại học Singapore</h3>
+              </div>
+              <div class="partnership-content">
+                <p>
+                  Kết nối với các trường đại học hàng đầu Singapore, hỗ trợ sinh
+                  viên tiếp cận nền giáo dục tiên tiến.
+                </p>
+                <div class="summer-note">
+                  🔥 Mùa hè học tập tại đảo quốc sư tử
+                </div>
+                <div class="classical-quote">求知若渴，志存高遠</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Scroll divider -->
+        <div class="scroll-divider">
+          <div class="divider-pattern">🌸 ◆ 🌸 ◆ 🌸</div>
+        </div>
+
+        <!-- New Section: BTEC FPT History Timeline -->
+        <section class="scroll-section">
+          <div class="section-title-scroll">
+            <h2>Hành Trình BTEC FPT</h2>
+            <div class="title-decoration">📜 ◆ 📜</div>
+          </div>
+
+          <div class="timeline-container">
+            <div class="timeline-item">
+              <div class="timeline-year">2010</div>
+              <div class="timeline-content">
+                <h3>Thành Lập BTEC FPT</h3>
+                <p>Khởi đầu hành trình đào tạo chuẩn Anh Quốc tại Việt Nam.</p>
+                <div class="timeline-icon">🌟</div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-year">2015</div>
+              <div class="timeline-content">
+                <h3>Hợp Tác Với Pearson</h3>
+                <p>
+                  Chính thức liên kết với Pearson Education, cung cấp bằng BTEC
+                  HND.
+                </p>
+                <div class="timeline-icon">🇬🇧</div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-year">2020</div>
+              <div class="timeline-content">
+                <h3>Ứng Dụng AI Trong Giảng Dạy</h3>
+                <p>Đưa công nghệ trí tuệ nhân tạo vào chương trình đào tạo.</p>
+                <div class="timeline-icon">💻</div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-year">2025</div>
+              <div class="timeline-content">
+                <h3>Mở Rộng Quốc Tế</h3>
+                <p>Liên kết với các trường đại học tại Mỹ, Úc, Singapore.</p>
+                <div class="timeline-icon">🌍</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Scroll divider -->
+        <div class="scroll-divider">
+          <div class="divider-pattern">🏮 ◆ 🏮 ◆ 🏮</div>
+        </div>
+
+        <!-- Summer academies section - 2x2 Grid -->
+        <section class="scroll-section">
+          <div class="section-title-scroll">
+            <h2>Các Trường Mùa Hè Của Học Viện</h2>
+            <div class="title-decoration">🌞 ❀ 🌞</div>
+          </div>
+
+          <div class="summer-schools-grid">
+            <div class="school-scroll lotus-school grid-item">
+              <div class="school-header">
+                <div class="school-crest">💻</div>
+                <h3>Trường Tin Học Mùa Hè</h3>
+                <div class="school-motto">"Công nghệ phục vụ nhân dân"</div>
+              </div>
+              <div class="school-content">
+                <p class="school-description">
+                  Đào tạo các sĩ tử am hiểu công nghệ thông tin, lập trình và
+                  khoa học máy tính với chương trình BTEC HND Computing
+                </p>
+                <div class="summer-activities">
+                  <h4>🌞 Hoạt động mùa hè:</h4>
+                  <div class="activity">🦗 Lập trình AI cùng tiếng ve sầu</div>
+                  <div class="activity">
+                    🍃 Học Machine Learning dưới gió mát
+                  </div>
+                  <div class="activity">☀️ Hackathon công nghệ mùa hè</div>
+                </div>
+                <div class="school-stats">
+                  <div class="stat-item">👨‍🎓 1,200 học viên</div>
+                  <div class="stat-item">👨‍🏫 45 thầy cô</div>
+                </div>
+                <div class="school-rank">Hạng: SEN TRẮNG</div>
+                <div class="classical-note">程序設計，智慧創新</div>
+              </div>
+            </div>
+
+            <div class="school-scroll bamboo-school grid-item">
+              <div class="school-header">
+                <div class="school-crest">🎨</div>
+                <h3>Trường Mỹ Thuật Mùa Hè</h3>
+                <div class="school-motto">"Nghệ thuật từ tâm hồn"</div>
+              </div>
+              <div class="school-content">
+                <p class="school-description">
+                  Đào tạo các họa sĩ, nhà thiết kế tài năng với chương trình
+                  BTEC HND Art and Design
+                </p>
+                <div class="summer-activities">
+                  <h4>🌸 Hoạt động mùa hè:</h4>
+                  <div class="activity">🦋 Vẽ tranh hoa sen và bướm</div>
+                  <div class="activity">☀️ Thiết kế poster tự nhiên</div>
+                  <div class="activity">🏮 Làm đèn lồng truyền thống</div>
+                </div>
+                <div class="school-stats">
+                  <div class="stat-item">👩‍🎓 800 học viên</div>
+                  <div class="stat-item">👩‍🏫 32 thầy cô</div>
+                </div>
+                <div class="school-rank">Hạng: TRE XANH</div>
+                <div class="classical-note">藝術創作，美化人生</div>
+              </div>
+            </div>
+
+            <div class="school-scroll lotus-school grid-item">
+              <div class="school-header">
+                <div class="school-crest">💼</div>
+                <h3>Trường Kinh Doanh Mùa Hè</h3>
+                <div class="school-motto">"Thương gia có đạo"</div>
+              </div>
+              <div class="school-content">
+                <p class="school-description">
+                  Đào tạo những nhà kinh doanh có tâm và có tài với chương trình
+                  BTEC HND Business
+                </p>
+                <div class="summer-activities">
+                  <h4>🌾 Hoạt động mùa hè:</h4>
+                  <div class="activity">🏮 Kinh doanh trong hội chợ hè</div>
+                  <div class="activity">
+                    🦗 Marketing với tinh thần dân gian
+                  </div>
+                  <div class="activity">💨 Khởi nghiệp ý tưởng mùa hè</div>
+                </div>
+                <div class="school-stats">
+                  <div class="stat-item">👨‍💼 600 học viên</div>
+                  <div class="stat-item">👨‍🏫 28 thầy cô</div>
+                </div>
+                <div class="school-rank">Hạng: SEN HỒNG</div>
+                <div class="classical-note">商道經營，惠民利國</div>
+              </div>
+            </div>
+
+            <div class="school-scroll bamboo-school grid-item">
+              <div class="school-header">
+                <div class="school-crest">⚙️</div>
+                <h3>Trường Kỹ Thuật Mùa Hè</h3>
+                <div class="school-motto">"Chế tạo vì tương lai"</div>
+              </div>
+              <div class="school-content">
+                <p class="school-description">
+                  Rèn luyện những kỹ sư tài ba, sáng tạo các công nghệ phục vụ
+                  đời sống với chương trình Engineering
+                </p>
+                <div class="summer-activities">
+                  <h4>🔥 Hoạt động mùa hè:</h4>
+                  <div class="activity">⚡ Chế tạo máy năng lượng mặt trời</div>
+                  <div class="activity">
+                    🌿 Thiết kế máy thân thiện môi trường
+                  </div>
+                  <div class="activity">💨 Sáng chế quạt tre hiện đại</div>
+                </div>
+                <div class="school-stats">
+                  <div class="stat-item">👷‍♂️ 400 học viên</div>
+                  <div class="stat-item">👨‍🔬 25 thầy cô</div>
+                </div>
+                <div class="school-rank">Hạng: TRÚC VÀNG</div>
+                <div class="classical-note">工程技術，造福社會</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Scroll divider -->
+        <div class="scroll-divider">
+          <div class="divider-pattern">🌸 ◆ 🌸 ◆ 🌸</div>
+        </div>
+
+        <!-- New Section: Call-to-Action Banner -->
+        <section class="scroll-section">
+          <div class="cta-banner">
+            <div class="cta-content">
+              <h2>Tham Gia Hành Trình Sĩ Tử Mùa Hè</h2>
+              <p>
+                Đăng ký ngay hôm nay để trở thành một phần của BTEC FPT, nơi tri
+                thức và ước mơ hội tụ!
+              </p>
+              <a href="#contact" class="cta-button">
+                <span class="btn-icon">📜</span>
+                <span class="btn-text">Đăng Ký Ngay</span>
+                <div class="btn-glow"></div>
+              </a>
+            </div>
+            <div class="cta-decoration">🌺 ◆ 🌺</div>
+          </div>
+        </section>
+
+        <!-- Scroll divider -->
+        <div class="scroll-divider">
+          <div class="divider-pattern">🏮 ◆ 🏮 ◆ 🏮</div>
+        </div>
+
+        <!-- Contact section -->
+        <section class="scroll-section" id="contact">
+          <div class="section-title-scroll">
+            <h2>Liên Hệ Với Học Viện</h2>
+            <div class="title-decoration">📮 ❀ 📮</div>
+          </div>
+
+          <div class="contact-scroll">
+            <div class="contact-info">
+              <div class="info-scroll-item">
+                <div class="info-icon">🏛️</div>
+                <div class="info-content">
+                  <h4>BTEC FPT Hà Nội</h4>
+                  <p>Toà BTEC FPT, Trịnh Văn Bô, Nam Từ Liêm, TP. Hà Nội</p>
+                  <p>098 109 05 13</p>
+                  <h4>BTEC FPT Đà Nẵng</h4>
+                  <p>66 Võ Văn Tần, Q. Thanh Khê, TP. Đà Nẵng</p>
+                  <p>0327 575 727</p>
+                  <h4>BTEC FPT Hồ Chí Minh</h4>
+                  <p>
+                    Toà F, công viên phần mềm Quang, P. Tân Chánh Hiệp, Q. 12,
+                    TP.Hồ Chí Minh
+                  </p>
+                  <p>035 385 21 38</p>
+                  <h4>BTEC FPT Cần Thơ</h4>
+                  <p>
+                    Đường số 22, Phường Thường Thạnh, Quận Cái Răng, TP. Cần Thơ
+                  </p>
+                  <p>096 705 76 05</p>
+                </div>
+              </div>
+
+              <div class="info-scroll-item">
+                <div class="info-icon">📮</div>
+                <div class="info-content">
+                  <h4>Thư Tín Điện Tử</h4>
+                  <p>hocvien@btecfpt.edu.vn</p>
+                  <div class="traditional-desc">
+                    Gửi thư như xưa, nhận tin ngay lập tức
+                  </div>
+                </div>
+              </div>
+
+              <div class="info-scroll-item">
+                <div class="info-icon">📞</div>
+                <div class="info-content">
+                  <h4>Điện Thoại Liên Lạc</h4>
+                  <p>Hotline 24/7: 0329 605 828</p>
+                  <div class="traditional-desc">
+                    Trao đổi nhanh chóng, tiện lợi mọi lúc
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="message-scroll">
+              <h3>Gửi Thông Điệp Đến Học Viện</h3>
+              <div class="form-intro">
+                Mùa hè là thời điểm tốt nhất để bắt đầu hành trình học tập cùng
+                chúng tôi
+              </div>
+
+              <form class="scroll-form">
+                <div class="form-scroll-group">
+                  <label>Tên của bạn:</label>
+                  <input
+                    type="text"
+                    placeholder="Nhập tên đầy đủ của bạn"
+                    required
+                  />
+                  <div class="input-ornament">🌸</div>
+                </div>
+
+                <div class="form-scroll-group">
+                  <label>Email liên hệ:</label>
+                  <input
+                    type="email"
+                    placeholder="Nhập địa chỉ email của bạn"
+                    required
+                  />
+                  <div class="input-ornament">🦋</div>
+                </div>
+
+                <div class="form-scroll-group">
+                  <label>Lời nhắn gửi học viện:</label>
+                  <textarea
+                    placeholder="Chia sẻ mong muốn học tập và câu hỏi của bạn..."
+                    rows="5"
+                    required
+                  ></textarea>
+                  <div class="input-ornament">🍃</div>
+                </div>
+
+                <button type="submit" class="scroll-submit-btn">
+                  <span class="btn-icon">📜</span>
+                  <span class="btn-text">Gửi Thông Điệp</span>
+                  <div class="btn-glow"></div>
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <!-- Scroll divider -->
+        <div class="scroll-divider">
+          <div class="divider-pattern">🌸 ◆ 🌸 ◆ 🌸</div>
+        </div>
+
+        <!-- Final blessing -->
+        <section class="scroll-section final-blessing">
+          <div class="blessing-content">
+            <h2>Lời Chúc Cuối Cuộn Sách</h2>
+            <div class="main-blessing">
+              <p>
+                Chúc các sĩ tử mùa hè học tập thành công, tri thức vững vàng như
+                tre xanh,
+              </p>
+              <p>
+                Tài năng nở rộ như hoa sen, đức hạnh trong sáng như nước suối.
+              </p>
+              <p>
+                Với bằng cấp BTEC HND Level 5 của Anh Quốc, các em sẽ có nền
+                tảng vững chắc để tiếp tục học tập tại các trường đại học danh
+                tiếng.
+              </p>
+            </div>
+            <div class="summer-blessing">
+              ☀️ Mùa hè an lành, học tập tiến bộ, sức khỏe dồi dào! 🌺
+            </div>
+            <div class="classical-blessing">學而有成，夏日如意，前程似錦</div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Scroll bottom cap -->
+      <div class="scroll-cap bottom-cap">
+        <div class="cap-decoration">❀ ◆ ❀</div>
+      </div>
+    </div>
+
+    <!-- Scroll progress indicator -->
+    <div class="scroll-progress-indicator">
+      <div class="progress-lantern">🏮</div>
+      <div class="progress-rope">
+        <div class="progress-fill"></div>
+      </div>
+      <div class="progress-marker" id="progressMarker"></div>
+    </div>
+
+    <script>
+      // Photo envelope functionality
+      document.addEventListener("DOMContentLoaded", function () {
+        const envelope = document.getElementById("photoEnvelope");
+        const flap = document.getElementById("envelopeFlap");
+        const photoContent = document.getElementById("photoContent");
+
+        envelope.addEventListener("click", function () {
+          if (envelope.classList.contains("opened")) {
+            // Close the envelope
+            envelope.classList.remove("opened");
+            setTimeout(() => {
+              photoContent.style.opacity = "0";
+            }, 300);
+          } else {
+            // Open the envelope
+            envelope.classList.add("opened");
+            setTimeout(() => {
+              photoContent.style.opacity = "1";
+            }, 800);
+          }
+        });
+      });
+
+      // Scroll progress indicator with progress fill
+      window.addEventListener("scroll", function () {
+        const scrollTop = window.pageYOffset;
+        const docHeight =
+          document.documentElement.scrollHeight - window.innerHeight;
+        const scrollPercent = Math.min((scrollTop / docHeight) * 100, 100);
+
+        const progressRope = document.querySelector(".progress-rope");
+        const progressMarker = document.getElementById("progressMarker");
+        const progressFill = document.querySelector(".progress-fill");
+
+        if (progressRope && progressMarker) {
+          const ropeHeight = progressRope.offsetHeight;
+          const markerHeight = progressMarker.offsetHeight;
+
+          // Update the progress fill
+          if (progressFill) {
+            progressFill.style.height = scrollPercent + "%";
+          }
+
+          // Position marker exactly at the top of the fill
+          // Account for marker height to eliminate gap
+          const fillHeight = (scrollPercent / 100) * ropeHeight;
+          const markerPosition = ropeHeight - fillHeight - markerHeight / 2;
+          progressMarker.style.top = markerPosition + "px";
+        }
+      });
+
+      // Initialize progress on page load
+      document.addEventListener("DOMContentLoaded", function () {
+        // Trigger scroll event to set initial position
+        window.dispatchEvent(new Event("scroll"));
+      });
+    </script>
+  </body>
+</html>
